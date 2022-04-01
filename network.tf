@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "htexample" {
   name     = "my-resources"
   location = "Australia Southeast"
